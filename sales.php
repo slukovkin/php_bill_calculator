@@ -40,6 +40,12 @@ $gaz = convert($gaz);
 					<th>Сумма оплаты</th>
 				</tr>
 				<tr>
+					<th colspan="6">
+						<input type="date" id="search" placeholder="Поиск по месяцам" value="">
+						<a href="#" class="btn-search" id="btn-search">Поиск</a>
+					</th>
+				</tr>
+				<tr>
 					<td>Электроснабжение</td>
 					<td><?= $electro[5] ?></td>
 					<td><?= $electro[1] ?></td>
@@ -66,5 +72,6 @@ $gaz = convert($gaz);
 			</tbody>
 		</table>
 	</div>
+	<script src="../../assets/js/main.js"></script>
 </body>
 </html>
