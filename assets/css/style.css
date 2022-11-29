@@ -83,3 +83,7 @@ th {
   padding: 10px;
   width: 150px;
 }
+
+td {
+  background: rgb(235, 235, 235);
+}
