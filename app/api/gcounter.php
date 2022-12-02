@@ -9,7 +9,6 @@ $counter_current = $_POST['counter_current'];
 $get_setting = mysqli_query($db, "SELECT * FROM `setting`");
 
 $data = mysqli_fetch_all($get_setting);
-
 $price = $data[count($data) - 1][3];
 
 if ($counter_current > $counter_prev) {

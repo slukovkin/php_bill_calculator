@@ -17,7 +17,7 @@
 <body>
   <header class="header">
     <ul>
-      <li><a href="/sales.php">Платежи</a></li>
+      <li><a href="/">Платежи</a></li>
       <li><a href="/app/templates/electro.php">Электроснабжение</a></li>
       <li><a href="/app/templates/water.php">Водоснабжение</a></li>
       <li><a href="/app/templates/gaz.php">Газоснабжение</a></li>

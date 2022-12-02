@@ -58,6 +58,8 @@ $gaz = convert($gaz);
                     <th>Текущее</th>
                     <th>Количество</th>
                     <th>Сумма оплаты</th>
+                    <!-- <th rowspan="4">Сумма затрат</th> -->
+                    <th rowspan="4">Сумма затрат: <hr style="margin: 10px;" /><?= $electro[4] + $water[4] + $gaz[4] ?></th>
                 </tr>
                 <tr>
                     <td>Электроснабжение</td>
