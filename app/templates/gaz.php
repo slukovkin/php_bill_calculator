@@ -6,7 +6,7 @@ require_once '../../vendor/db.php';
 
 $date = date('Y-m-d');
 
-$data = mysqli_query($db, "SELECT * FROM `gaz` WHERE `data` = '$date'");
+$data = mysqli_query($db, "SELECT * FROM `gaz`");
 $sum = mysqli_query($db, "SELECT `sum` FROM `gaz` ");
 $sum = mysqli_fetch_all($sum);
 
